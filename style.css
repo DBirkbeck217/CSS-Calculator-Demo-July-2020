@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "SF Pro";
+    src: url("./fonts/SF-Pro-Display-Thin.otf") format("opentype");
+  }
+
+#container {
+    width: 236px;
+    height: 320px;
+    background: #213236;
+    border-radius: 4px;
+    font-family: "SF Pro";
+}
+
+#circles {
+    display: flex;
+    padding-top: 8px;
+}
+
+
+#circle_1 {
+background: #ff544d;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+margin-left: 8px;
+}
+
+#circle_2 {
+background: #FFBD2A;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+margin-left: 8px;
+}
+
+#circle_3 {
+background: #28c941;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+margin-left: 8px;
+}
+
+.square {
+    width: 58px;
+    height: 48px;
+    background: #40484C;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#squares_1 > div:nth-child(-n + 3) {
+    background: #3b484c;
+}
+
+.squares_row {
+    display: flex;
+}
+
+.squares_row > div:nth-child(-n + 3) {
+    background-color: #606a6d
+}
+
+.squares_row > div:last-child {
+background: #FF9500;
+}
+
+#square_0 {
+    flex: 1;
+    border-bottom-left-radius: 4px;
+}
+
+.zero {
+    color: white ;
+    text-align: right;
+    font-size: 52px;
+    padding-right: 15px ;
+}
+
+#bottom_right {
+    border-bottom-right-radius: 4px;
+}
+
+
+
